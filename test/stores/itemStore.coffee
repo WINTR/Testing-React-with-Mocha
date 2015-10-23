@@ -26,7 +26,7 @@ describe "ItemStore", ->
         actionType: "ADD_ITEM"
         data: "Item 3"
 
-      expect(ItemStore.getItems()).length.to.be(3)
+      ItemStore.getItems().length.should.equal 3
 
     it "should remove items", ->
       dispatcher.dispatch
@@ -41,12 +41,14 @@ describe "ItemStore", ->
         actionType: "REMOVE_ITEM"
         data: "Item 2"
 
-      expect(ItemStore.getItems()).length.to.be(1)
+      ItemStore.getItems().length.should.equal 1
 
   describe "Private methods", ->
     it "should add items", ->
       addItem = ItemStore.__get__("addItem")
       addItem("Item 1")
       addItem("Item 2")
-      expect(ItemStore.getItems()).length.to.be(2)
+      
+      ItemStore.getItems().length.should.equal 2
+      
       

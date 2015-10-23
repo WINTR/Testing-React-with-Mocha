@@ -48,3 +48,4 @@ describe "ParentComponent", ->
       header2 = component.refs.header2
       Simulate.click(button)
       expect(header2.getDOMNode().textContent).to.equal("Thanks for clicking")
+      
