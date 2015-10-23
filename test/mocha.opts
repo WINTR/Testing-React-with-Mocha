@@ -1,0 +1,3 @@
+--debug
+--compilers coffee:coffee-react/register
+--recursive
