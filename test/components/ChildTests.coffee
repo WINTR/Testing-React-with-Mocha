@@ -3,7 +3,7 @@ require "../specHelper"
 #----------------------------------------
 
 describe "ChildComponent", ->
-  ChildComponent = require "../../source/components/child"
+  ChildComponent = require "../../source/components/Child"
   component = undefined
 
   beforeEach ->

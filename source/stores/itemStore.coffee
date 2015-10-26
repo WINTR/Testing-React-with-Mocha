@@ -16,7 +16,7 @@ removeItem = (item) ->
   ItemStore.emitChange()
 
 # Store 
-ItemStore = Flux.createStore 
+ItemStore = Flux.createStore
   getItems: ->
     return _items
   reset: ->

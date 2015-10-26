@@ -5,9 +5,9 @@ rewire = require 'rewire'
 
 describe "Complex Math", ->
   # Require the module to test
-  ComplexMath = rewire "../../source/utils/complexMath.coffee"
+  ComplexMath = rewire "../../source/utils/ComplexMath"
   
-  # Mocking module's dependencies
+  # Mock module's dependencies
   ComplexMath.__set__ 
     Math:
       product: ->

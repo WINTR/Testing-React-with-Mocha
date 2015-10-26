@@ -1,13 +1,14 @@
-require "../specHelper"
-McFly = require "mcfly"
-rewire = require "rewire"
+require '../specHelper'
+decache 'mcfly'
+rewire = require 'rewire'
+McFly = require 'mcfly'
 
 #----------------------------------------
 
 describe "ItemStore", ->
   Flux = new McFly()
   dispatcher = Flux.dispatcher
-  ItemStore = rewire "../../source/stores/itemStore.coffee"
+  ItemStore = rewire '../../source/stores/ItemStore'
 
   beforeEach ->
     ItemStore.reset()

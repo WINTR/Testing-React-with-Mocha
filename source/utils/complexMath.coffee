@@ -1,4 +1,4 @@
-Math = require "./math"
+Math = require "./Math"
 
 #----------------------------------------
 

@@ -4,7 +4,7 @@ rewire = require 'rewire'
 #----------------------------------------
 
 describe "ParentComponent", ->
-  ParentComponent = rewire "../../source/components/parent"
+  ParentComponent = rewire "../../source/components/Parent"
   component = undefined
 
   # Mock module's dependencies

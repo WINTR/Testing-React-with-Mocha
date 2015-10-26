@@ -3,7 +3,7 @@ require "../specHelper"
 #----------------------------------------
 
 describe "Math", ->
-  Math = require "../../source/utils/math"
+  Math = require "../../source/utils/Math"
 
   describe "Sum", ->
     it "should add two numbers", ->
