@@ -8,7 +8,7 @@
 - [Mocha](https://mochajs.org) for running tests
 - [Chai](http://chaijs.com/) for assertions
 - [Sinon](http://sinonjs.org/) for stubs, spys, etc
-- [Nock](https://github.com/pgte/nock)k to mock external API calls
+- [Nock](https://github.com/pgte/nock) to mock external API calls
 - [Rewire](https://github.com/jhnns/rewire) to mock `require` calls and to allow private method testing
 - [Decache](https://github.com/dwyl/decache) to help out with the Flux dispatcher being a singleton
 
